@@ -48,7 +48,7 @@ namespace Blackjack
             else return Dos;
         }
 
-        private static Bitmap ResizeImage(Bitmap originale)
+        public static Bitmap ResizeImage(Bitmap originale)
         {
             return new Bitmap(originale, new Size(WIDTH, HEIGHT));
         }
