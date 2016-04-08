@@ -8,5 +8,9 @@ namespace Blackjack
 {
     class Humain : Joueur
     {
+        public override void Jouer()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -8,6 +8,11 @@ namespace Blackjack
 {
     class IA : Joueur
     {
+        override public void Jouer()
+        {
+            throw new NotImplementedException();
+        }
+
     }
 
     enum NiveauRisque

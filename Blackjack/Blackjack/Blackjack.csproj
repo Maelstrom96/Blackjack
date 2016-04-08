@@ -55,6 +55,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Jeu.cs" />
     <Compile Include="Joueur\Humain.cs" />
     <Compile Include="Joueur\IA.cs" />
     <Compile Include="Joueur\Joueur.cs" />
@@ -246,6 +247,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playing-card-back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playing-card-back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

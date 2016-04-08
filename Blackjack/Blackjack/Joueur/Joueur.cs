@@ -8,21 +8,21 @@ namespace Blackjack
 {
     abstract class Joueur
     {
-        private Paquet paquet_ = new Paquet();
+        //private Paquet paquet_ = new Paquet();
         private Boolean abandonner_ = false;
-        private uint victoire_ = 0;
-        public uint Victoire {  get { return victoire_; } }
+        private uint score_ = 0;
+        public uint Score { get { return score_; } }
 
         public abstract void Jouer();
 
         public void NouvellePartie()
         {
-            paquet_.Clear();
+            //paquet_.Clear();
         }
 
         public void Victoire()
         {
-            victoire_++;
+            score_++;
         }
     }
 }
