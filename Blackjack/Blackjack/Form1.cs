@@ -16,5 +16,11 @@ namespace Blackjack
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Paquet pck = new Paquet();
+            pck.Reset();
+        }
     }
 }

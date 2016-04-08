@@ -1,5 +1,4 @@
-﻿using ImageMagick;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -16,12 +15,14 @@ namespace Blackjack
         private honneur honneur_;
         private ushort point_;
         private Bitmap image_;
-        private Face face_; 
+        private Face face_;
+        private Point position_;
 
         public static Bitmap Back = ResizeImage(Properties.Resources.back);
         public honneur Honneur { get { return honneur_; } }
         public ushort Point { get { return point_; } }
         public Bitmap Image { get { return image_; } }
+        public Point Position { get { return position_; } }
         public Face FaceCourante { get { return face_; } }
 
         public Carte(honneur honneur, ushort point)
